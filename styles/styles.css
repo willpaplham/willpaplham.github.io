@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Futura-CondensedMedium"
+}
+
+.works-button{
+
+  font-size: 36px;
+  letter-spacing: 5px;
+
+  position:relative;
+  left:384px;
+  top:700px;
+/*   top:295px; */
+  color: darkorange;
+  /* color:#224A66; */
+}
+
+img{
+   width:100%;
+}
+
+.homepage{
+  z-index: -1;
+}
+
+.branch-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .3s opacity;
+
+}
+
+span:hover + .branch-1{
+  opacity: 1;
+  transition: .3s opacity;
+}
+
+
+
+
+/* ORIGINAL ====
+
+span:hover + .branch-1{
+  opacity: 1;
+  transition: .3s opacity;
+}
+*/

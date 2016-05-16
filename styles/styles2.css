@@ -1,0 +1,83 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Futura-CondensedMedium"
+}
+
+body{
+  background-image: url('../Hoflin-homepage-final.png');
+  background-repeat: no-repeat;
+  background-size: 1080px;
+}
+
+.container{
+
+}
+
+.home-button{
+  font-size: 2.5em;
+  letter-spacing: 3.5px;
+  position: absolute;
+  top:230px;
+  left:220px;
+  color:#224A66;
+}
+
+.works-button{
+  font-size: 2.5em;
+  letter-spacing: 3.5px;
+  position: absolute;
+  top:285px;
+  left:340px;
+  color:#224A66;
+}
+
+.concerning-button{
+    font-size: 1.6em;
+    letter-spacing: 3.5px;
+    position: absolute;
+    top:350px;
+    left:475px;
+    color:#224A66;
+}
+
+.news-button{
+    font-size: 2.5em;
+    letter-spacing: 3.5px;
+    position: absolute;
+    top:400px;
+    left:660px;
+    color:#224A66;
+}
+
+.name{
+  font-size: 2.8em;
+  letter-spacing: 3.5px;
+  position: absolute;
+  top:380px;
+  left:830px;
+  color:#C13A2C;
+}
+
+img{
+   width:1080px;
+}
+
+.branch-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: .3s opacity;
+
+}
+
+a{
+  z-index: 1;
+  text-decoration: none;
+}
+
+a:hover + .branch-1{
+  opacity: 1;
+  transition: .3s opacity;
+}

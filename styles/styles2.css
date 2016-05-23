@@ -5,13 +5,19 @@
 }
 
 body{
-  background-image: url('../Hoflin-homepage-final.png');
-  background-repeat: no-repeat;
-  background-size: 1080px;
 }
 
 .container{
+  background-image: url('../Hoflin-homepage-final.png');
+  background-repeat: no-repeat;
+  background-size: 1080px;
+  height: 100vh;
 
+  border: 1px solid black;
+  position: relative;
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-button{

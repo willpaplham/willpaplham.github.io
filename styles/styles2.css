@@ -1,7 +1,8 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: "Futura-CondensedMedium"
+  /*font-family: "Futura-CondensedMedium";*/
+  font-family: "Gill Sans";
 }
 
 body{
@@ -11,9 +12,9 @@ body{
   background-image: url('../Hoflin-homepage-final.png');
   background-repeat: no-repeat;
   background-size: 1080px;
-  height: 100vh;
+  height: 550px;
 
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   position: relative;
   max-width: 1080px;
   margin-left: auto;
@@ -25,7 +26,7 @@ body{
   letter-spacing: 3.5px;
   position: absolute;
   top:230px;
-  left:220px;
+  left:180px;
   color:#224A66;
 }
 
@@ -34,7 +35,7 @@ body{
   letter-spacing: 3.5px;
   position: absolute;
   top:285px;
-  left:340px;
+  left:320px;
   color:#224A66;
 }
 
@@ -43,7 +44,7 @@ body{
     letter-spacing: 3.5px;
     position: absolute;
     top:350px;
-    left:475px;
+    left:425px;
     color:#224A66;
 }
 
@@ -52,16 +53,16 @@ body{
     letter-spacing: 3.5px;
     position: absolute;
     top:400px;
-    left:660px;
+    left:630px;
     color:#224A66;
 }
 
 .name{
-  font-size: 2.8em;
+  font-size: 2.6em;
   letter-spacing: 3.5px;
   position: absolute;
   top:380px;
-  left:830px;
+  left:840px;
   color:#C13A2C;
 }
 
@@ -86,4 +87,50 @@ a{
 a:hover + .branch-1{
   opacity: 1;
   transition: .3s opacity;
+}
+
+
+.container-info-red{
+  background-color:#C13A2C;
+}
+
+.container-info-blue{
+  background-color:#224A66;
+}
+
+.container-info-blue-center {
+  /*border: 3px solid white;*/
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  width:75%;
+}
+
+.quote-top{
+  /*border: 3px solid black;*/
+  position: absolute;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+p{
+  /* temp adjustments */
+  font-size: 70px;
+}
+
+img{
+}
+
+
+dude{
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  color: #224A66;
+}
+
+.cover{
+  padding-left: 20px;
 }
